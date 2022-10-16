@@ -1,0 +1,53 @@
+@import "../../../common";
+
+#slider-col {
+  padding: 10px;
+}
+
+.reports-row {
+  margin: 5px;
+}
+
+.reports-row:nth-child(2n -1) {
+  background-color: #{$primary};
+  border-radius: 20px;
+  .table-header {
+    color: #ffffff;
+  }
+  #table {
+    color: #ffffff;
+    .table-body {
+      .table-row {
+        th {
+          button {
+            background-color: #{$accent} !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+#reports-col {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#reports-table-col {
+  // padding: 0px 40px 40px 40px;
+  .table-header {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+}
+
+.reports-col-divider {
+  color: #{$accent};
+  opacity: 1 !important;
+  width: 30%;
+  height: 2px !important;
+  border-radius: 100px;
+}
